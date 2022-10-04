@@ -17,7 +17,7 @@ const index = () => {
       {view === 1 && (
         <div className="text-white flex flex-col animate-opacityInOut font-medium text-lg     text-center uppercase md:text-3xl sm:text-2xl">
           <img
-            src="./image_me_nbg_resize.png"
+            src="./Profile-Square-Large.png"
             alt=""
             className="w-1/2 sm:w-1/3 m-auto rounded-full p-2 aspect-square object-cover border-2 border-emerald-600"
           />
@@ -179,7 +179,7 @@ const index = () => {
       {view === 10 && (
         <div className="text-white flex flex-col animate-opacityIn font-medium text-lg     text-center uppercase md:text-3xl sm:text-2xl">
           <img
-            src="./image_me_nbg_resize.png"
+            src="./Profile-Square-Large.png"
             alt=""
             className="w-1/2 sm:w-1/3 m-auto rounded-full p-2 aspect-square object-cover border-2 border-emerald-600"
           />
