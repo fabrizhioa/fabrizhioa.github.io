@@ -10,14 +10,14 @@ module.exports = {
         iconsbg: "url('/Icons_bg.png')"
       },
       animation: {
-        "opacityInOut": "opacityInOut 7s ease-in-out 1",
-        "opacityIn": "opacityIn 7s ease-in-out 1"
+        "opacityInOut": "opacityInOut 8s linear 1",
+        "opacityIn": "opacityIn 2s linear 1"
       },
       keyframes:{
         opacityInOut: {
           '0%, 100%': {
             opacity:"0"
-          }, "50%": {
+          }, "25%, 75%": {
             opacity:"1"
           }
         },

@@ -1,13 +1,14 @@
-import React, { useState, useEffect, useMemo } from "react";
+import React, { useState, useEffect } from "react";
 import { FaLinkedinIn, FaWhatsapp, FaInstagram } from "react-icons/fa";
 import audio from "../../assets/cover.mp3";
+
 const index = () => {
   const [view, setView] = useState<number>(1);
 
   useEffect(() => {
     const timer = setTimeout(() => {
       if (view < 10) setView(view + 1);
-    }, 7000);
+    }, 8000);
 
     return () => clearTimeout(timer);
   }, [view]);
