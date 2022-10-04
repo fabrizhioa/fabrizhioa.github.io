@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import { FaLinkedinIn, FaWhatsapp, FaInstagram } from "react-icons/fa";
-
+import audio from "../../assets/cover.mp3";
 const index = () => {
   const [view, setView] = useState<number>(1);
 
@@ -214,6 +214,7 @@ const index = () => {
           </ul>
         </div>
       )}
+      <audio src={audio} autoPlay />
     </div>
   );
 };
