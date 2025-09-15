@@ -15,9 +15,7 @@
 			<p class="text-white text-xl md:text-2xl mb-8">
 				Desarrollador Full-Stack | Especialista en Soluciones Fintech
 			</p>
-			<div
-				class="flex flex-wrap items-center gap-6 justify-center space-x-6 mb-8"
-			>
+			<div class="flex flex-wrap items-center gap-6 justify-center mb-8">
 				<a
 					href="https://github.com/fabrizhioa"
 					target="_blank"
